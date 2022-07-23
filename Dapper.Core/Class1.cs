@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CAL.matrimony
+namespace Dapper.Core
 {
     public class Class1
     {

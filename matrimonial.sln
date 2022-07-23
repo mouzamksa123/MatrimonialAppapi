@@ -5,13 +5,13 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrimonial", "matrimonial\matrimonial.csproj", "{7684A1BA-0B92-4FAE-8E3C-BA5878C83204}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAL.matrimony", "BAL.matrimony\BAL.matrimony.csproj", "{E74B482F-BE49-4ED3-91C9-957B27E34039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrimony.business", "BAL.matrimony\matrimony.business.csproj", "{E74B482F-BE49-4ED3-91C9-957B27E34039}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAL.matrimony", "CAL.matrimony\CAL.matrimony.csproj", "{AB59D0C7-9A21-4CE9-9F52-0332940FFC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrimony.core", "CAL.matrimony\matrimony.core.csproj", "{AB59D0C7-9A21-4CE9-9F52-0332940FFC5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.matrimony", "DAL.matrimony\DAL.matrimony.csproj", "{2DDF1B95-3EF1-4014-A72A-8820F03771A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrimony.repository", "DAL.matrimony\matrimony.repository.csproj", "{2DDF1B95-3EF1-4014-A72A-8820F03771A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperLibrary", "DapperLibrary\DapperLibrary.csproj", "{5F64C58B-DB24-4038-B583-94B6F110A17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Infrastructure", "DapperLibrary\Dapper.Infrastructure.csproj", "{5F64C58B-DB24-4038-B583-94B6F110A17C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailHelper", "EmailHelper\EmailHelper.csproj", "{BC2BE2F8-6622-4AAE-B6F5-A4BAF3A6A1C7}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DapperLibrary
+namespace Dapper.Application
 {
     public class Class1
     {
