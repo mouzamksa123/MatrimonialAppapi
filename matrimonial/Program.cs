@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
         {
             string[] originArr = configurationbuilder["CORS:origin"].ToString().Split(",");
             string[] headersArr = configurationbuilder["CORS:headers"].ToString().Split(",");
-            string[] methodsArr = configurationbuilder["CORS:methods"].ToString().Split(",");
+            string[] methodsArr = configurationbuilder["CORS:methodsArr"].ToString().Split(",");
             builder.WithOrigins(originArr).WithHeaders(headersArr).WithMethods(methodsArr);
         });
 });
